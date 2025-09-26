@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #c9c3b3;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.navbar a:hover{
+    background-color: #a49f92;
+}
+
+#getStart{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#getStart:hover{
+    background-color: #a49f92;
+}
+#getStart a{
+    color: white;
+    text-decoration: none;
+}
+
+#Playground{
+
+    display: block;
+    margin:  auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 5px;
+    
+
+    width: 70%;
+    height: 800px;
+}
+
+#deleteallButton{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#deleteallButton:hover{
+    background-color: #a49f92;
+}
+
+#saveButton{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#saveButton:hover{
+    background-color: #a49f92;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
