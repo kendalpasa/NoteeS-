@@ -19,3 +19,4 @@ function saveNote(){
     link.download = "note.txt";
     link.click();
 }
+

@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+main{
+max-resolution: 1000px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #c9c3b3;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.navbar a:hover{
+    background-color: #a49f92;
+}
+
+#getStart{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#getStart:hover{
+    background-color: #a49f92;
+}
+#getStart a{
+    color: white;
+    text-decoration: none;
+}
+
+#Playground{
+
+    display: block;
+    margin:  auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 5px;
+    ;
+    
+
+    width: 70%;
+    height: 800px;
+}
+
+#deleteallButton{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#deleteallButton:hover{
+    background-color: #a49f92;
+}
+
+#saveButton{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c9c3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#saveButton:hover{
+    background-color: #a49f92;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.apps{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.apps a{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #c9c3b3;
+    display: inline-block;
+    border-radius: 5px;s
+}
+
+.apps li{
+    display: inline;
+}
+
+.apps a:hover{
+    background-color: #a49f92;
+}
+
+h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.containers{
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    width: 220px;
+    background-color: #c9c3b3;
+    padding: 15px;
+    color: white;
+}
+
+.sidebar h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li{
+    margin: 10px 0;
+}
+
+.sidebar button{
+    width: 100%;
+    padding: 10px;
+    background-color: #a49f92;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.sidebar button:hover{
+    background-color: #8c8876;
+}
+
+
+#apodh2{
+    text-align: center;
+    display: block;
+    background-color: #c9c3b3;
+    padding: 10px;
+}
+
+#openseadragon1 {
+  width: 80%;
+  height: 800px;
+  background: #111;
+  margin: auto;
+}
+
+h3{
+    text-align: center;
+    margin: 20px;
+}
+
+#apodinfo{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
